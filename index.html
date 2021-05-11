@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en"><!-- Basic -->
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
+   
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+ 
+     <!-- Site Metas -->
+    <title>The Wedding Of Mutia & Yogiana</title>  
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="" type="image/x-icon">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Pogo Slider CSS -->
+    <link rel="stylesheet" href="css/pogo-slider.min.css">
+	<!-- Site CSS -->
+    <link rel="stylesheet" href="css/style.css">    
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+	<!-- Komen -->
+	<link rel="stylesheet" href="css/komen.css">
+	
+	<link rel="stylesheet" href="css/pop.css"> 
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+<?php
+// mengdefiniskan variabel dan diset kosong
+$name = $address = $level_edu = "";
+
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+  $name     = $_POST["nama"];
+  $address    = $_POST["alamat"];
+}
+?>
+
+
+</head>
+<div id="myModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title"></h4>
+            </div>
+			<audio id="player" src="backsound.mp3" autoplay></audio>
+            <div class="modal-body">
+                <center><p>You're Invited The Wedding Of </p><p><img src="images/mdany2.png" alt="image"></p></center>
+            </div>
+            <div class="modal-footer"> 
+                <button type="button" onclick="document.getElementById('player').play()"  class="btn btn-warning" data-dismiss="modal"><i class="fa fa-heart-o" aria-hidden="true"></i>Buka Undangan<i class="fa fa-heart-o" aria-hidden="true"></i></button>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+<body id="home" data-spy="scroll" data-target="#navbar-wd" data-offset="98">
+
+
+	<!-- LOADER -->
+    <div id="preloader">
+		<div class="preloader pulse">
+			<h2 style="color: white;">Y & M</h2>
+		</div>
+    </div>
+    <!-- END LOADER -->
+	
+	<!-- Start header -->
+	<header class="top-header">
+		<nav class="navbar header-nav navbar-expand-lg">
+            <div class="container">
+				<a class="navbar-brand" href="index.html"><img src="images/mdany2.png" alt="image"></a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-wd" aria-controls="navbar-wd" aria-expanded="false" aria-label="Toggle navigation">
+					<span></span>
+					<span></span>
+					<span></span>
+				</button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbar-wd">
+                    <ul class="navbar-nav">
+                        <li><a class="nav-link active" href="#home">Home</a></li>
+                        <li><a class="nav-link" href="#about">About Us</a></li>
+                        <li><a class="nav-link" href="#story">Story</a></li>
+                        <li><a class="nav-link" href="#gallery">Gallery</a></li>
+						<li><a class="nav-link" href="#wedding">Wedding</a></li>
+						<li><a class="nav-link" href="#location">location</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+	</header>
+	<!-- End header -->
+	
+	<!-- Start Banner -->
+<div class="home-slider">
+		<ul class="rslides">
+			<li><img src="images/1.jpeg" alt=""></li>
+			<li><img src="images/2.jpeg" alt=""></li>
+			<li><img src="images/3.jpeg" alt=""></li>
+		</ul>
+		<div class="lbox-details">
+			<h1>You are Invited</h1>
+			<h2>The Wedding of</h2>
+			<h1 style="font-size: 45px;">Mutia Salsabila, A.Md.Keb<br/>&<br/>Yogiana, S.H.</h1>
+			<br/>
+			
+					<h1 style="color: goldenrod;">Save the Date<br/>"23 Mei 2021"</h1><br/>
+				
+			</div>
+		</div>
+	</div>
+	<!-- End Banner -->
+	
+	<div id="about" class="about-box">
+		<div class="about-a1">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="title-box">
+							<h2><span>We, the happy ones</span></h2>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-12 col-md-12 col-sm-12">
+						<div class="row align-items-center about-main-info">
+							<div class="col-lg-8 col-md-6 col-sm-12">
+								<h2> <span>Mutia Salsabila, A.Md.Keb</span></h2>
+								<p>Mutia Salsabila, Putri dari Bapak M.Arief (alm) & Ibu Nurul Asikin</p> 
+								<p>Anak ke enam dari enam saudara</p>
+								<p>Lahir di Pangkal Pinang 13 Mei 1992</p>
+							</div>
+							<div class="col-lg-4 col-md-6 col-sm-12">
+								<div class="about-img">
+									<img class="img-fluid rounded" src="images/Profile 1.jpg" alt="" />
+								</div>
+							</div>
+						</div>
+						<div class="row align-items-center about-main-info">
+							<div class="col-lg-4 col-md-6 col-sm-12">
+								<div class="about-img">
+									<img class="img-fluid rounded" src="images/Profile 2.jpg" alt="" />
+								</div>
+							</div>
+							<div class="col-lg-8 col-md-6 col-sm-12">
+								<h2>  <span>Yogiana, S.H.</span></h2>
+								<p>Yogiana, Putra dari Bapak Amad dan Ibu Nani</p>
+								<p>Anak ke delapan dari sepuluh bersaudara</p>
+								<p>Lahir di Karawang 18 Mei 1991</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End About us -->
+	
+	<!-- Start Story -->
+	<div id="story" class="story-box main-timeline-box">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="title-box">
+						<h2><span>Our love story journey</h2></span>
+						<p>Dan di antara tanda-tanda (kebesaran)-Nya ialah Dia menciptakan pasangan-pasangan untukmu dari jenismu sendiri, agar kamu cenderung dan merasa tenteram kepadanya, dan Dia menjadikan di antaramu rasa kasih dan sayang. QS. Ar-Rum Ayat 21 </p>
+					</div>
+				</div>
+			</div>
+			
+			<div class="timeLine">
+				<div class="row">
+					<div class="lineHeader hidden-sm hidden-xs"></div>
+					<div class="lineFooter hidden-sm hidden-xs"></div>
+
+						<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 item" >
+							<div class="caption">
+								<div class="star center-block">
+									<span class="h3">08</span>
+									<span>August </span>
+									<span>2020</span>
+								</div>
+								<div class="image">
+									<img src="images/6.jpeg" alt="" />
+									<div class="title">
+										<h2>First Meet <i class="fa fa-angle-right" aria-hidden="true"></i></h2>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 item">
+							<div class="caption">
+								<div class="star center-block">
+									<span class="h3">12</span>
+									<span>August</span>
+									<span>2020</span>
+								</div>
+								<div class="image">
+									<img src="images/12.jpeg" alt="" />
+									<div class="title">
+										<h2>First date <i class="fa fa-angle-right" aria-hidden="true"></i></h2>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 item">
+							<div class="caption">
+								<div class="star center-block">
+									<span class="h3">17</span>
+									<span>January</span>
+									<span>2021</span>
+								</div>
+								<div class="image">
+									<img src="images/4.jpeg" alt="" />
+									<div class="title">
+										<h2>Engagement<i class="fa fa-angle-right" aria-hidden="true"></i></h2>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 item">
+							<div class="caption">
+								<div class="star center-block">
+									<span class="h3">23</span>
+									<span>Mei</span>
+									<span>2021</span>
+								</div>
+								<div class="image">
+									<img src="images/14.jpeg" alt="" />
+									<div class="title">
+										<h2>Our Wedding <i class="fa fa-angle-right" aria-hidden="true"></i></h2>
+									</div>
+								</div>
+							</div>
+						</div>
+						
+
+				</div>
+			</div>
+			
+		</div>
+	</div>
+	<!-- End Story -->
+	
+	<!-- Start Gallery -->
+	<div id="gallery" class="gallery-box">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="title-box">
+						<h2>Gallery</h2>
+						<p></p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<ul class="popup-gallery clearfix">
+					<li>
+						<a href="images/gallery-01.jpg">
+							<img class="img-fluid" src="images/Gallery 1.jpg" alt="single image">
+							<span class="overlay"><i class="fa fa-heart-o" aria-hidden="true"></i></span>
+						</a>
+					</li>
+					<li>
+						<a href="images/gallery-02.jpg">
+							<img class="img-fluid" src="images/Gallery 2.jpg" alt="single image">
+							<span class="overlay"><i class="fa fa-heart-o" aria-hidden="true"></i></span>
+						</a>
+					</li>
+					<li>
+						<a href="images/gallery-03.jpg">
+							<img class="img-fluid" src="images/Gallery 3.jpg" alt="single image">
+							<span class="overlay"><i class="fa fa-heart-o" aria-hidden="true"></i></span>
+						</a>
+					</li>
+					<li>
+						<a href="images/gallery-04.jpg">
+							<img class="img-fluid" src="images/Gallery 4.jpg" alt="single image">
+							<span class="overlay"><i class="fa fa-heart-o" aria-hidden="true"></i></span>
+						</a>
+					</li>
+					<li>
+						<a href="images/gallery-05.jpg">
+							<img class="img-fluid" src="images/Gallery 5.jpg" alt="single image">
+							<span class="overlay"><i class="fa fa-heart-o" aria-hidden="true"></i></span>
+						</a>
+					</li>
+					<li>
+						<a href="images/gallery-06.jpg">
+							<img class="img-fluid" src="images/Gallery 6.jpg" alt="single image">
+							<span class="overlay"><i class="fa fa-heart-o" aria-hidden="true"></i></span>
+						</a>
+					</li>
+					<li>
+						<a href="images/gallery-07.jpg">
+							<img class="img-fluid" src="images/Gallery 7.jpg" alt="single image">
+							<span class="overlay"><i class="fa fa-heart-o" aria-hidden="true"></i></span>
+						</a>
+					</li>
+					<li>
+						<a href="images/gallery-08.jpg">
+							<img class="img-fluid" src="images/Gallery 8.jpg" alt="single image">
+							<span class="overlay"><i class="fa fa-heart-o" aria-hidden="true"></i></span>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!-- End Gallery -->
+	
+	<!-- Start Wedding -->
+	
+	<div id="wedding" class="wedding-box">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="title-box">
+						<h2>The Wedding</h2>
+						<p>Suatu kehormatan dan kebahagiaan bagi kami jika saudara/i dapat hadir untuk memberikan doa dan restu kepada putra/i kami </p>
+					</div>
+				</div>
+			</div>
+			
+			<div class="row">
+                <div class="col-md-4 col-sm-6">
+                    <div class="serviceBox">
+                        <div class="service-icon"><i class="flaticon-bachelorette-party"></i></div>
+                        <h3 class="title">Engagement / Tunangan</h3>
+						<h4>17 Januari 2021</h4>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6">
+                    <div class="serviceBox">
+                        <div class="service-icon"><i class="flaticon-wedding"></i></div>
+                        <h3 class="title">Resepsi Nikah</h3>
+						<h4>23 Mei 2021 at 11:00 am</h4>
+                        <p class="description">
+                            Perumahan Perumnas Bumi Telukjambe Blok A/316 Rt/Rw 006/011 Desa Sukaluyu Kec.Telukjambe Timur Karawang 
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6">
+                    <div class="serviceBox">
+                        <div class="service-icon"><i class="flaticon-reception-bell"></i></div>
+                        <h3 class="title">Kirim Kado/Cashless Gift </h3>
+                        <p class="description">
+                            		
+    <body>
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target=".modalKecil">Click Here</button>
+ 
+<div class="modal fade modalKecil" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog modal-sm">
+ 
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5>Kirim Kado (Cashless) untuk Yogiana & Mutia </h5>
+      </div>
+      <div class="modal-body">
+        Rek BCA Mutia Salsabila 7045076741
+      </div>
+    </div>
+ 
+  </div>
+</div>
+	</body>
+</div>
+                        </p>
+						
+                    </div>
+					
+                </div>
+<br/>
+<div id="location">
+				<div class="col-lg-12">
+				<br/>
+					<div class="title-box">
+						<h2 style="color: goldenrod;">The Location</h2>
+					</div>
+				</div>
+				
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.4246350286467!2d107.27771531476965!3d-6.339007995412636!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e699d8e14b0dfd1%3A0xd1c04f802f54886d!2sRumah%20Kita%20Daycare%2C%20Penitipan%20anak%20karawang%2C%20Daycare%20karawang!5e0!3m2!1sid!2sid!4v1618674738184!5m2!1sid!2sid" width="1366" height="600" frameborder="0" style="border:0; width: 100%;" allowfullscreen="" aria-hidden="false" tabindex="0">
+					</iframe>
+				
+				
+            </div>
+		</div>
+	</div>
+	</div>
+	
+	<!-- End Wedding -->
+	
+
+	<!-- End Contact -->
+	
+	
+
+	<!-- Start Footer -->
+	<footer class="footer-box">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<p class="footer-company-name">All Rights Reserved.2021 Design By : <a href="https://instagram.com/unicode.tech?igshid=1pb7ctcko9uci"><b>unicode.tech</b></a></p>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- End Footer -->
+
+	<!-- ALL JS FILES -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+    <!-- ALL PLUGINS -->
+	<script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/jquery.pogo-slider.min.js"></script> 
+	<script src="js/slider-index.js"></script>
+	<script src="js/smoothscroll.js"></script>
+	<script src="js/responsiveslides.min.js"></script>
+    <script src="js/timeLine.min.js"></script>	
+	<script src="js/form-validator.min.js"></script>
+    <script src="js/contact-form-script.js"></script>
+    <script src="js/custom.js"></script>
+	<script>
+$('#myModal').modal('show');
+</script>
+</body>
+</html>
